@@ -1,0 +1,127 @@
+body {
+    background-color: #967070;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.information-container {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.projects {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #ffffff;
+    background-color: #ffffff;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+}
+
+.beat1 {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 1px 1.5px 2px #000000;
+}
+
+@keyframes animation-name-1 {
+    0% {
+        box-shadow: 2px 1px 1.5px 2px #ff0000;
+    }
+
+    50% {
+        box-shadow: 2px 1px 1.5px 2px #0000ff;
+    }
+
+    100% {
+        box-shadow: 2px 1px 1.5px 2px #00ff00;
+    }
+
+    0% {
+        box-shadow: 2px 1px 1.5px 2px #ff0000;
+    }
+}
+
+@keyframes animation-move-trigger {
+ 0% {
+    transform: translateY(-10px);
+ }
+}
+.beat1 {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 1px 1.5px 2px #000000;
+    animation: infinite;
+    animation-name: animation-name-1;
+    animation-duration: 10s;
+}
+
+.beat2 {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 2px 1px 1.5px 2px #000000;
+    animation: infinite;
+    animation-name: animation-name-1;
+}
+
+audio {
+    border-style: solid;
+    border-radius: 100px;
+    background-color: #f4f4f4;
+    transform: translateY(0);
+    transition: transform 0.5s ease;
+    
+}
+
+audio:hover {
+    border-style: solid;
+    border-radius: 100px;
+    background-color: #f4f4f4;
+    animation: infinite;
+    animation-name: animation-move-trigger;
+    animation-timing-function: ease;
+    animation-duration: 30s;
+}
+
+.copyright-section {
+    border: 1px;
+    border-radius: 3px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+}
+
+.more-tracks {
+    border: 1px;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: #f4f4f4;
+    background-color: #f4f4f4;
+    padding: 10px;
+    margin: 10px;
+    align-items: center;
+    text-align: center;
+}
